@@ -6,8 +6,10 @@ import 'package:flutter/material.dart';
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-        body: Center(
-          
+        appBar: AppBar(
+          title: const Center(child:  Text("Counter Screens")),
+        ),
+        body: Center(  
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children:const  [
